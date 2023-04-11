@@ -5,7 +5,7 @@ acr_tech_repeatable_cheaper_ships = {
 	tier = @repeatableTechTier
 	category = { voidcraft }
 	levels = 8
-	potential = { has_ancrel = yesa }
+	potential = { has_ancrel = yes }
 	prerequisites = { "ap_archaeoengineers" "acr_tech_inital_cheaper_ships" }
 	weight = 20
 	ai_weight = { factor = 1 }
