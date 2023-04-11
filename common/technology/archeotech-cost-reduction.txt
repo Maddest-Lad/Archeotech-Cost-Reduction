@@ -1,0 +1,49 @@
+acr_tech_repeatable_cheaper_ships = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = 8
+	potential = { has_ancrel = yesa }
+	prerequisites = { "ap_archaeoengineers" "acr_tech_inital_cheaper_ships" }
+	weight = 20
+	ai_weight = { factor = 1 }
+	weight_groups = { repeatable }
+	mod_weight_if_group_picked = { repeatable = 0.01 }
+	modifier = { 
+		custom_tooltip = acr_tech_repeatable_cheaper_ships_effect
+		ship_battleship_minor_artifacts_cost_mult = -0.05
+		ship_cruiser_minor_artifacts_cost_mult = -0.05
+		ship_destroyer_minor_artifacts_cost_mult = -0.05
+		ship_corvette_minor_artifacts_cost_mult = -0.05
+		ship_colonizer_minor_artifacts_cost_mult = -0.05
+		ship_military_station_minor_artifacts_cost_mult = -0.05
+		ship_science_minor_artifacts_cost_mult = -0.05
+	}
+}
+
+acr_tech_inital_cheaper_ships = {
+	area = engineering
+	cost = @tier4cost2
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	tier = 4
+	is_rare = yes
+	potential = { has_ancrel = yes }
+	prerequisites = { "ap_archaeoengineers" }
+	ai_weight = { factor = 1 }
+	weight = @tier4weight2
+	mod_weight_if_group_picked = { repeatable = 0.01 }
+	modifier = { 
+		custom_tooltip = acr_tech_inital_cheaper_ships_effect
+		ship_battleship_minor_artifacts_cost_mult = -0.40
+		ship_cruiser_minor_artifacts_cost_mult = -0.40
+		ship_destroyer_minor_artifacts_cost_mult = -0.40
+		ship_corvette_minor_artifacts_cost_mult = -0.40
+		ship_colonizer_minor_artifacts_cost_mult = -0.40
+		ship_military_station_minor_artifacts_cost_mult = -0.40
+		ship_science_minor_artifacts_cost_mult = -0.40
+	}
+}
