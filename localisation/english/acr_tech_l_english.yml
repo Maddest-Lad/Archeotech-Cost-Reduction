@@ -3,9 +3,9 @@
 acr_tech_inital_cheaper_ships:0 "Relic Ship Integration"
 acr_tech_inital_cheaper_ships_desc:0 "The introduction of advanced integrator platforms has reduced our reliance on relic-based components."
 
-acr_tech_inital_cheaper_ships_effect:1 "Minor Relic Ship Component Cost: §G-50%§!"
+acr_tech_inital_cheaper_ships_effect:1 "Relic Ship Component Cost: §G-40%§!\nMinor Relic Capacity: §G+7000§!"
 
 acr_tech_repeatable_cheaper_ships:0 "Improved Relic Integration"
 acr_tech_repeatable_cheaper_ships_desc:0 "Improved production techniques have reduced our reliance on relic-based components."
 
-acr_tech_repeatable_cheaper_ships_effect:1 "Minor Relic Ship Component Cost: §G-5%§!"
+acr_tech_repeatable_cheaper_ships_effect:1 "Relic Ship Component Cost: §G-5%§!"
