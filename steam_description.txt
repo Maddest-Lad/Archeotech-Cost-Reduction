@@ -1,0 +1,19 @@
+Provides two new technologies to reduce the cost of Archeotech Components.
+
+[b] Relic Ship Integration [/b]
+[list]
+[*] Tier 4 Rare Voidcraft Tech
+[*] Reduces Minor Artifact Cost by 40% for Archeotech Components 
+[/list]
+
+[b] Improved Relic Integration [/b]
+[list]
+[*] Repeatable Voidcraft Tech
+[*] Repeatable Up to 8 Times
+[*] Reduces Minor Artifact Cost by 5% for Archeotech Components
+[/list]
+
+Prerequisites: Archaeoengineers Ascension Perk
+Required DLC: Ancient Relics Story Pack
+
+Mod Source: https://github.com/Maddest-Lad/Stellaris-Archeotech-Cost-Reduction
