@@ -33,6 +33,5 @@ acr_tech_inital_cheaper_ships = {
 	modifier = { 
 		custom_tooltip = acr_tech_inital_cheaper_ships_effect
 		starbase_shipyard_build_minor_artifacts_cost_mult = -0.40
-		country_resource_max_minor_artifacts_add = 7000
 	}
 }
