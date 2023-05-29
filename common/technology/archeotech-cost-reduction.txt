@@ -1,11 +1,12 @@
 acr_tech_repeatable_cheaper_ships = {
-	area = engineering
+	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
-	category = { voidcraft }
-	levels = 8
 	potential = { has_ancrel = yes }
+	category = { archaeostudies }
+	levels = 8
+	is_rare = no
 	prerequisites = { "acr_tech_inital_cheaper_ships" }
 	weight = 20
 	ai_weight = { factor = 1 }
@@ -18,18 +19,15 @@ acr_tech_repeatable_cheaper_ships = {
 }
 
 acr_tech_inital_cheaper_ships = {
-	area = engineering
-	cost = @tier4cost2
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { voidcraft }
-	tier = 4
-	is_rare = yes
+	cost = @tier3cost2
+	area = society
+	tier = 3
 	potential = { has_ancrel = yes }
-	prerequisites = { "ap_archaeoengineers" }
-	ai_weight = { factor = 1 }
-	weight = @tier4weight2
-	mod_weight_if_group_picked = { repeatable = 0.01 }
+	category = { archaeostudies }
+	is_rare = no
+	weight = @tier3weight2
+	prerequisites = { "tech_archaeostudies" }
+
 	modifier = { 
 		custom_tooltip = acr_tech_inital_cheaper_ships_effect
 		starbase_shipyard_build_minor_artifacts_cost_mult = -0.40
